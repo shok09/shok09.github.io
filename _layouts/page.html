@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset='utf-8' />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jointly: {{ page.title }}</title>
+<link rel="shortcut icon" type="image/ico" href="/images/icon.ico">
+
+<script src="https://code.getmdl.io/1.1.2/material.min.js"></script>
+<link rel="stylesheet" href="https://code.getmdl.io/1.1.2/material.indigo-blue.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/overrides.css">
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">
+                <img alt="Jointly" src="/images/icon.png">
+                <span>Jointly</span>
+            </span>
+            <nav class="mdl-navigation">
+                <a class="mdl-navigation__link mdl-navigation__link--icon" href="/">
+                    <i class="material-icons">file_download</i>
+                    <span>Download</span>
+                </a>
+                <a class="mdl-navigation__link mdl-navigation__link--icon" href="/search/">
+                    <i class="material-icons">search</i>
+                    <span>Music Search</span>
+                </a>
+                <a class="mdl-navigation__link mdl-navigation__link--icon" href="/credits/">
+                    <i class="material-icons">people</i>
+                    <span>Credits</span>
+                </a>
+                <a class="mdl-navigation__link mdl-navigation__link--icon" href="https://github.com/shok09/shok09.github.io" target="_blank">
+                    <i class="material-icons">code</i>
+                    <span>Code</span>
+                </a>
+                <div class="subheader">Support &amp; Discussion</div>
+                <a class="mdl-navigation__link mdl-navigation__link--icon" href="/discord/" target="_blank">
+                    <i class="material-icons">comment</i>
+                    <span>Discord Server</span>
+                </a>
+                <a class="mdl-navigation__link mdl-navigation__link--icon" href="/telegram/">
+                    <i class="material-icons">video_library</i>
+                    <span>Telegram</span>
+                </a>
+            </nav>
+        </div>
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">{{ page.title }}</span>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            {{ content }}
+        </main>
+</body>
