@@ -1,0 +1,60 @@
+html > body {
+    font-family: Roboto, 'Helvetica','Arial', sans-serif;
+    color: rgba(0, 0, 0, 0.87);
+    font-weight: 400;
+    text-rendering: optimizeLegibility;
+}
+
+.mdl-layout-title > img {
+    height: 48px;
+    margin-right: 8px;
+}
+.mdl-navigation__link--icon > .material-icons {
+    margin-right: 32px;
+}
+
+a {
+    text-decoration:none;
+}
+.mdl-layout__content {
+    padding: 16px;
+    background: #FAFAFA;
+}
+
+.subheader {
+    color: rgba(0, 0, 0, 0.54);
+    padding-left: 16px;
+    height: 48px;
+    line-height: 48px;
+}
+nav > .subheader {
+    border-top: 1px solid rgba(0, 0, 0, 0.12);
+    margin-top: 8px;
+}
+
+.divider {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.12);
+}
+nav > .divider {
+    margin: 8px 0;
+}
+h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 30px 0 20px;
+}
+h4 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 24px 0 16px;
+}
+h5 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 21px 0 14px;
+}
+h3:first-child {
+  margin-top: 0;
+}
