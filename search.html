@@ -1,0 +1,27 @@
+---
+layout: page
+title: Search music
+permalink: /search/
+---
+
+<p>Search for a music on our website</p>
+
+<div>
+    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent mdl-js-ripple-effect" id="searchButton">Search</button>
+     for
+    <span class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="searchBox" autofocus />
+        <label class="mdl-textfield__label" for="searchBox">music</label>
+    </span>
+    of
+    <button id="authorSelectButton" class="mdl-button mdl-js-button"></button>
+    <ul id="authorSelectMenu" for="authorSelectButton" class="mdl-menu mdl-js-menu">
+
+    </ul>
+    author.
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.4.3/js-yaml.min.js"></script>
+<script src="https://unpkg.com/github-api@2.3.0/dist/GitHub.bundle.min.js"></script>
+<script src="/js/search.js"></script>
